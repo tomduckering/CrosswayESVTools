@@ -1,0 +1,50 @@
+<!DOCTYPE crossway-bible SYSTEM "http://www.gnpcb.org/esv/share/schemas/crossway.base.entities.dtd">
+<crossway-bible class="passage-query">
+    <passage>
+        <reference>Matthew 3</reference>
+        <surrounding-chapters>
+            <previous>Matthew 2</previous>
+            <current class="full-chapter">Matthew 3</current>
+            <next>Matthew 4</next>
+        </surrounding-chapters>
+        <content>
+            <verse-unit unit-id="40003001"><marker class="begin-verse" mid="v40003001"/>
+                <begin-chapter num="3"/><heading>John the Baptist Prepares the Way</heading>
+                <begin-paragraph/><verse-num begin-chapter="3">1</verse-num>In those days John the Baptist came preaching in the wilderness of Judea,</verse-unit>
+            <verse-unit unit-id="40003002"><marker class="begin-verse" mid="v40003002"/><verse-num>2</verse-num>&ldblquot;Repent, for the kingdom of heaven is at hand.&rdblquot;</verse-unit>
+            <verse-unit unit-id="40003003"><marker class="begin-verse" mid="v40003003"/><verse-num>3</verse-num>For this is he who was spoken of by the prophet Isaiah when he said,<end-paragraph/>
+                <begin-block-indent/>
+                <begin-paragraph class="line-group"/>
+                <begin-line/>&ldblquot;The voice of one crying in the wilderness:<end-line class="br"/>
+                <begin-line/>&lquot;Prepare<footnote id="f1">Or <i>crying: Prepare in the wilderness</i></footnote> the way of the Lord;<end-line class="br"/>
+                <begin-line class="indent"/>make his paths straight.&rquot;&rdblquot;<end-line/>
+                <end-paragraph/>
+                <end-block-indent/>
+            </verse-unit>
+            <verse-unit unit-id="40003004"><marker class="begin-verse" mid="v40003004"/>
+                <begin-paragraph class="same-paragraph"/><verse-num>4</verse-num>Now John wore a garment of camel&apos;s hair and a leather belt around his waist, and his food was locusts and wild honey.</verse-unit>
+            <verse-unit unit-id="40003005"><marker class="begin-verse" mid="v40003005"/><verse-num>5</verse-num>Then Jerusalem and all Judea and all the region about the Jordan were going out to him,</verse-unit>
+            <verse-unit unit-id="40003006"><marker class="begin-verse" mid="v40003006"/><verse-num>6</verse-num>and they were baptized by him in the river Jordan, confessing their sins.<end-paragraph/>
+            </verse-unit>
+            <verse-unit unit-id="40003007"><marker class="begin-verse" mid="v40003007"/>
+                <begin-paragraph/><verse-num>7</verse-num>But when he saw many of the Pharisees and Sadducees coming to his baptism, he said to them, &ldblquot;You brood of vipers! Who warned you to flee from the wrath to come?</verse-unit>
+            <verse-unit unit-id="40003008"><marker class="begin-verse" mid="v40003008"/><verse-num>8</verse-num>Bear fruit in keeping with repentance.</verse-unit>
+            <verse-unit unit-id="40003009"><marker class="begin-verse" mid="v40003009"/><verse-num>9</verse-num>And do not presume to say to yourselves, &lquot;We have Abraham as our father,&rquot; for I tell you, God is able from these stones to raise up children for Abraham.</verse-unit>
+            <verse-unit unit-id="40003010"><marker class="begin-verse" mid="v40003010"/><verse-num>10</verse-num>Even now the axe is laid to the root of the trees. Every tree therefore that does not bear good fruit is cut down and thrown into the fire.<end-paragraph/>
+            </verse-unit>
+            <verse-unit unit-id="40003011"><marker class="begin-verse" mid="v40003011"/>
+                <begin-paragraph/><verse-num>11</verse-num>&ldblquot;I baptize you with water for repentance, but he who is coming after me is mightier than I, whose sandals I am not worthy to carry. He will baptize you with the Holy Spirit and fire.</verse-unit>
+            <verse-unit unit-id="40003012"><marker class="begin-verse" mid="v40003012"/><verse-num>12</verse-num>His winnowing fork is in his hand, and he will clear his threshing floor and gather his wheat into the barn, but the chaff he will burn with unquenchable fire.&rdblquot;<end-paragraph/>
+            </verse-unit>
+            <verse-unit unit-id="40003013"><marker class="begin-verse" mid="v40003013"/><heading>The Baptism of Jesus</heading>
+                <begin-paragraph/><verse-num>13</verse-num>Then Jesus came from Galilee to the Jordan to John, to be baptized by him.</verse-unit>
+            <verse-unit unit-id="40003014"><marker class="begin-verse" mid="v40003014"/><verse-num>14</verse-num>John would have prevented him, saying, &ldblquot;I need to be baptized by you, and do you come to me?&rdblquot;</verse-unit>
+            <verse-unit unit-id="40003015"><marker class="begin-verse" mid="v40003015"/><verse-num>15</verse-num>But Jesus answered him, <woc>&ldblquot;Let it be so now, for thus it is fitting for us to fulfill all righteousness.&rdblquot;</woc> Then he consented.</verse-unit>
+            <verse-unit unit-id="40003016"><marker class="begin-verse" mid="v40003016"/><verse-num>16</verse-num>And when Jesus was baptized, immediately he went up from the water, and behold, the heavens were opened to him,<footnote id="f2">Some manuscripts omit <i>to him</i></footnote> and he saw the Spirit of God descending like a dove and coming to rest on him;</verse-unit>
+            <verse-unit unit-id="40003017"><marker class="begin-verse" mid="v40003017"/><verse-num>17</verse-num>and behold, a voice from heaven said, &ldblquot;This is my beloved Son,<footnote id="f3">Or <i>my Son, my</i> (or <i>the</i>) <i>Beloved</i></footnote> with whom I am well pleased.&rdblquot;<end-paragraph/>
+                <end-chapter/>
+            </verse-unit>
+        </content>
+    </passage>
+    <copyright>The Holy Bible, English Standard Version copyright (c)2001 by Crossway Bibles, a division of Good News Publishers. Used by permission. All rights reserved. http://www.esv.org</copyright>
+</crossway-bible>

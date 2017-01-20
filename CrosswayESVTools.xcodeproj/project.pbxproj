@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E5790C81E32828500822690 /* CrosswayESVTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5790BE1E32828500822690 /* CrosswayESVTools.framework */; };
+		8E5790CF1E32828500822690 /* CrosswayESVTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5790C11E32828500822690 /* CrosswayESVTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E5790DB1E3282D100822690 /* ESVXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5790D81E3282D100822690 /* ESVXMLParser.swift */; };
+		8E5790DC1E3282D100822690 /* ESVPassage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5790D91E3282D100822690 /* ESVPassage.swift */; };
+		8E5790DD1E3282D100822690 /* ESVPassageStringRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5790DA1E3282D100822690 /* ESVPassageStringRenderer.swift */; };
+		8E5790DF1E3282DC00822690 /* BasicAttributedStringESVPassageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5790DE1E3282DC00822690 /* BasicAttributedStringESVPassageRenderer.swift */; };
+		8E5790E21E3282EF00822690 /* ESVXMLParseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5790E01E3282EF00822690 /* ESVXMLParseTests.swift */; };
+		8E5790E31E3282EF00822690 /* ESVAttributedStringRenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5790E11E3282EF00822690 /* ESVAttributedStringRenderTests.swift */; };
+		8EE5D9501E3297420072B4D3 /* Genesis1.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8EE5D9471E3296AA0072B4D3 /* Genesis1.xml */; };
+		8EE5D9511E3297420072B4D3 /* Psalm119.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8EE5D9491E3296BD0072B4D3 /* Psalm119.xml */; };
+		8EE5D9521E3297420072B4D3 /* Matthew3.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8EE5D94B1E3296CA0072B4D3 /* Matthew3.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E5790C91E32828500822690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E5790B51E32828500822690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E5790BD1E32828500822690;
+			remoteInfo = CrosswayESVTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E5790BE1E32828500822690 /* CrosswayESVTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrosswayESVTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5790C11E32828500822690 /* CrosswayESVTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrosswayESVTools.h; sourceTree = "<group>"; };
+		8E5790C21E32828500822690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5790C71E32828500822690 /* CrosswayESVToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrosswayESVToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5790CE1E32828500822690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5790D81E3282D100822690 /* ESVXMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESVXMLParser.swift; sourceTree = "<group>"; };
+		8E5790D91E3282D100822690 /* ESVPassage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESVPassage.swift; sourceTree = "<group>"; };
+		8E5790DA1E3282D100822690 /* ESVPassageStringRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESVPassageStringRenderer.swift; sourceTree = "<group>"; };
+		8E5790DE1E3282DC00822690 /* BasicAttributedStringESVPassageRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicAttributedStringESVPassageRenderer.swift; sourceTree = "<group>"; };
+		8E5790E01E3282EF00822690 /* ESVXMLParseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESVXMLParseTests.swift; sourceTree = "<group>"; };
+		8E5790E11E3282EF00822690 /* ESVAttributedStringRenderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESVAttributedStringRenderTests.swift; sourceTree = "<group>"; };
+		8EE5D9471E3296AA0072B4D3 /* Genesis1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Genesis1.xml; sourceTree = "<group>"; };
+		8EE5D9491E3296BD0072B4D3 /* Psalm119.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Psalm119.xml; sourceTree = "<group>"; };
+		8EE5D94B1E3296CA0072B4D3 /* Matthew3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Matthew3.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E5790BA1E32828500822690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5790C41E32828500822690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5790C81E32828500822690 /* CrosswayESVTools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E5790B41E32828500822690 = {
+			isa = PBXGroup;
+			children = (
+				8E5790C01E32828500822690 /* CrosswayESVTools */,
+				8E5790CB1E32828500822690 /* CrosswayESVToolsTests */,
+				8E5790BF1E32828500822690 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E5790BF1E32828500822690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E5790BE1E32828500822690 /* CrosswayESVTools.framework */,
+				8E5790C71E32828500822690 /* CrosswayESVToolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E5790C01E32828500822690 /* CrosswayESVTools */ = {
+			isa = PBXGroup;
+			children = (
+				8E5790D81E3282D100822690 /* ESVXMLParser.swift */,
+				8E5790D91E3282D100822690 /* ESVPassage.swift */,
+				8E5790DA1E3282D100822690 /* ESVPassageStringRenderer.swift */,
+				8E5790C11E32828500822690 /* CrosswayESVTools.h */,
+				8E5790DE1E3282DC00822690 /* BasicAttributedStringESVPassageRenderer.swift */,
+				8E5790C21E32828500822690 /* Info.plist */,
+			);
+			path = CrosswayESVTools;
+			sourceTree = "<group>";
+		};
+		8E5790CB1E32828500822690 /* CrosswayESVToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EE5D9461E3296880072B4D3 /* Resources */,
+				8E5790E01E3282EF00822690 /* ESVXMLParseTests.swift */,
+				8E5790E11E3282EF00822690 /* ESVAttributedStringRenderTests.swift */,
+				8E5790CE1E32828500822690 /* Info.plist */,
+			);
+			path = CrosswayESVToolsTests;
+			sourceTree = "<group>";
+		};
+		8EE5D9461E3296880072B4D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EE5D9471E3296AA0072B4D3 /* Genesis1.xml */,
+				8EE5D9491E3296BD0072B4D3 /* Psalm119.xml */,
+				8EE5D94B1E3296CA0072B4D3 /* Matthew3.xml */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8E5790BB1E32828500822690 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5790CF1E32828500822690 /* CrosswayESVTools.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8E5790BD1E32828500822690 /* CrosswayESVTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5790D21E32828500822690 /* Build configuration list for PBXNativeTarget "CrosswayESVTools" */;
+			buildPhases = (
+				8E5790B91E32828500822690 /* Sources */,
+				8E5790BA1E32828500822690 /* Frameworks */,
+				8E5790BB1E32828500822690 /* Headers */,
+				8E5790BC1E32828500822690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrosswayESVTools;
+			productName = CrosswayESVTools;
+			productReference = 8E5790BE1E32828500822690 /* CrosswayESVTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E5790C61E32828500822690 /* CrosswayESVToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5790D51E32828500822690 /* Build configuration list for PBXNativeTarget "CrosswayESVToolsTests" */;
+			buildPhases = (
+				8E5790C31E32828500822690 /* Sources */,
+				8E5790C41E32828500822690 /* Frameworks */,
+				8E5790C51E32828500822690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E5790CA1E32828500822690 /* PBXTargetDependency */,
+			);
+			name = CrosswayESVToolsTests;
+			productName = CrosswayESVToolsTests;
+			productReference = 8E5790C71E32828500822690 /* CrosswayESVToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E5790B51E32828500822690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tom Duckering";
+				TargetAttributes = {
+					8E5790BD1E32828500822690 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EE87GK4BE2;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					8E5790C61E32828500822690 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EE87GK4BE2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8E5790B81E32828500822690 /* Build configuration list for PBXProject "CrosswayESVTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E5790B41E32828500822690;
+			productRefGroup = 8E5790BF1E32828500822690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E5790BD1E32828500822690 /* CrosswayESVTools */,
+				8E5790C61E32828500822690 /* CrosswayESVToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E5790BC1E32828500822690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5790C51E32828500822690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE5D9501E3297420072B4D3 /* Genesis1.xml in Resources */,
+				8EE5D9511E3297420072B4D3 /* Psalm119.xml in Resources */,
+				8EE5D9521E3297420072B4D3 /* Matthew3.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E5790B91E32828500822690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5790DB1E3282D100822690 /* ESVXMLParser.swift in Sources */,
+				8E5790DD1E3282D100822690 /* ESVPassageStringRenderer.swift in Sources */,
+				8E5790DF1E3282DC00822690 /* BasicAttributedStringESVPassageRenderer.swift in Sources */,
+				8E5790DC1E3282D100822690 /* ESVPassage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5790C31E32828500822690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5790E31E3282EF00822690 /* ESVAttributedStringRenderTests.swift in Sources */,
+				8E5790E21E3282EF00822690 /* ESVXMLParseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E5790CA1E32828500822690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E5790BD1E32828500822690 /* CrosswayESVTools */;
+			targetProxy = 8E5790C91E32828500822690 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E5790D01E32828500822690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E5790D11E32828500822690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E5790D31E32828500822690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = EE87GK4BE2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CrosswayESVTools/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomduckering.CrosswayESVTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8E5790D41E32828500822690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = EE87GK4BE2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CrosswayESVTools/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomduckering.CrosswayESVTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8E5790D61E32828500822690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EE87GK4BE2;
+				INFOPLIST_FILE = CrosswayESVToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomduckering.CrosswayESVToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8E5790D71E32828500822690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EE87GK4BE2;
+				INFOPLIST_FILE = CrosswayESVToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomduckering.CrosswayESVToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E5790B81E32828500822690 /* Build configuration list for PBXProject "CrosswayESVTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5790D01E32828500822690 /* Debug */,
+				8E5790D11E32828500822690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E5790D21E32828500822690 /* Build configuration list for PBXNativeTarget "CrosswayESVTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5790D31E32828500822690 /* Debug */,
+				8E5790D41E32828500822690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E5790D51E32828500822690 /* Build configuration list for PBXNativeTarget "CrosswayESVToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5790D61E32828500822690 /* Debug */,
+				8E5790D71E32828500822690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E5790B51E32828500822690 /* Project object */;
+}

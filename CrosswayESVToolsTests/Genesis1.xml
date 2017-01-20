@@ -1,0 +1,75 @@
+<!DOCTYPE crossway-bible SYSTEM "http://www.gnpcb.org/esv/share/schemas/crossway.base.entities.dtd">
+<crossway-bible class="passage-query">
+    <passage>
+        <reference>Genesis 1</reference>
+        <surrounding-chapters>
+            <previous></previous>
+            <current class="full-chapter">Genesis 1</current>
+            <next>Genesis 2</next>
+        </surrounding-chapters>
+        <content>
+            <verse-unit unit-id="01001001"><marker class="begin-verse" mid="v01001001"/>
+                <begin-chapter num="1"/><heading>The Creation of the World</heading>
+                <begin-paragraph class="chapter-first"/><verse-num begin-chapter="1">1</verse-num>In the beginning, God created the heavens and the earth.</verse-unit>
+            <verse-unit unit-id="01001002"><marker class="begin-verse" mid="v01001002"/><verse-num>2</verse-num>The earth was without form and void, and darkness was over the face of the deep. And the Spirit of God was hovering over the face of the waters.<end-paragraph/>
+            </verse-unit>
+            <verse-unit unit-id="01001003"><marker class="begin-verse" mid="v01001003"/>
+                <begin-paragraph/><verse-num>3</verse-num>And God said, &ldblquot;Let there be light,&rdblquot; and there was light.</verse-unit>
+            <verse-unit unit-id="01001004"><marker class="begin-verse" mid="v01001004"/><verse-num>4</verse-num>And God saw that the light was good. And God separated the light from the darkness.</verse-unit>
+            <verse-unit unit-id="01001005"><marker class="begin-verse" mid="v01001005"/><verse-num>5</verse-num>God called the light Day, and the darkness he called Night. And there was evening and there was morning, the first day.<end-paragraph/>
+            </verse-unit>
+            <verse-unit unit-id="01001006"><marker class="begin-verse" mid="v01001006"/>
+                <begin-paragraph/><verse-num>6</verse-num>And God said, &ldblquot;Let there be an expanse<footnote id="f1">Or <i>a canopy</i>; also verses 7, 8, 14, 15, 17, 20</footnote> in the midst of the waters, and let it separate the waters from the waters.&rdblquot;</verse-unit>
+            <verse-unit unit-id="01001007"><marker class="begin-verse" mid="v01001007"/><verse-num>7</verse-num>And God made<footnote id="f2">Or <i>fashioned</i>; also verse 16</footnote> the expanse and separated the waters that were under the expanse from the waters that were above the expanse. And it was so.</verse-unit>
+            <verse-unit unit-id="01001008"><marker class="begin-verse" mid="v01001008"/><verse-num>8</verse-num>And God called the expanse Heaven.<footnote id="f3">Or <i>Sky</i>; also verses 9, 14, 15, 17, 20, 26, 28, 30; 2:1</footnote> And there was evening and there was morning, the second day.<end-paragraph/>
+            </verse-unit>
+            <verse-unit unit-id="01001009"><marker class="begin-verse" mid="v01001009"/>
+                <begin-paragraph/><verse-num>9</verse-num>And God said, &ldblquot;Let the waters under the heavens be gathered together into one place, and let the dry land appear.&rdblquot; And it was so.</verse-unit>
+            <verse-unit unit-id="01001010"><marker class="begin-verse" mid="v01001010"/><verse-num>10</verse-num>God called the dry land Earth,<footnote id="f4">Or <i>Land</i>; also verses 11, 12, 22, 24, 25, 26, 28, 30; 2:1</footnote> and the waters that were gathered together he called Seas. And God saw that it was good.<end-paragraph/>
+            </verse-unit>
+            <verse-unit unit-id="01001011"><marker class="begin-verse" mid="v01001011"/>
+                <begin-paragraph/><verse-num>11</verse-num>And God said, &ldblquot;Let the earth sprout vegetation, plants<footnote id="f5">Or <i>small plants</i>; also verses 12, 29</footnote> yielding seed, and fruit trees bearing fruit in which is their seed, each according to its kind, on the earth.&rdblquot; And it was so.</verse-unit>
+            <verse-unit unit-id="01001012"><marker class="begin-verse" mid="v01001012"/><verse-num>12</verse-num>The earth brought forth vegetation, plants yielding seed according to their own kinds, and trees bearing fruit in which is their seed, each according to its kind. And God saw that it was good.</verse-unit>
+            <verse-unit unit-id="01001013"><marker class="begin-verse" mid="v01001013"/><verse-num>13</verse-num>And there was evening and there was morning, the third day.<end-paragraph/>
+            </verse-unit>
+            <verse-unit unit-id="01001014"><marker class="begin-verse" mid="v01001014"/>
+                <begin-paragraph/><verse-num>14</verse-num>And God said, &ldblquot;Let there be lights in the expanse of the heavens to separate the day from the night. And let them be for signs and for seasons,<footnote id="f6">Or <i>appointed times</i></footnote> and for days and years,</verse-unit>
+            <verse-unit unit-id="01001015"><marker class="begin-verse" mid="v01001015"/><verse-num>15</verse-num>and let them be lights in the expanse of the heavens to give light upon the earth.&rdblquot; And it was so.</verse-unit>
+            <verse-unit unit-id="01001016"><marker class="begin-verse" mid="v01001016"/><verse-num>16</verse-num>And God made the two great lights&emdash;the greater light to rule the day and the lesser light to rule the night&emdash;and the stars.</verse-unit>
+            <verse-unit unit-id="01001017"><marker class="begin-verse" mid="v01001017"/><verse-num>17</verse-num>And God set them in the expanse of the heavens to give light on the earth,</verse-unit>
+            <verse-unit unit-id="01001018"><marker class="begin-verse" mid="v01001018"/><verse-num>18</verse-num>to rule over the day and over the night, and to separate the light from the darkness. And God saw that it was good.</verse-unit>
+            <verse-unit unit-id="01001019"><marker class="begin-verse" mid="v01001019"/><verse-num>19</verse-num>And there was evening and there was morning, the fourth day.<end-paragraph/>
+            </verse-unit>
+            <verse-unit unit-id="01001020"><marker class="begin-verse" mid="v01001020"/>
+                <begin-paragraph/><verse-num>20</verse-num>And God said, &ldblquot;Let the waters swarm with swarms of living creatures, and let birds<footnote id="f7">Or <i>flying things</i>; see Leviticus 11:19-20</footnote> fly above the earth across the expanse of the heavens.&rdblquot;</verse-unit>
+            <verse-unit unit-id="01001021"><marker class="begin-verse" mid="v01001021"/><verse-num>21</verse-num>So God created the great sea creatures and every living creature that moves, with which the waters swarm, according to their kinds, and every winged bird according to its kind. And God saw that it was good.</verse-unit>
+            <verse-unit unit-id="01001022"><marker class="begin-verse" mid="v01001022"/><verse-num>22</verse-num>And God blessed them, saying, &ldblquot;Be fruitful and multiply and fill the waters in the seas, and let birds multiply on the earth.&rdblquot;</verse-unit>
+            <verse-unit unit-id="01001023"><marker class="begin-verse" mid="v01001023"/><verse-num>23</verse-num>And there was evening and there was morning, the fifth day.<end-paragraph/>
+            </verse-unit>
+            <verse-unit unit-id="01001024"><marker class="begin-verse" mid="v01001024"/>
+                <begin-paragraph/><verse-num>24</verse-num>And God said, &ldblquot;Let the earth bring forth living creatures according to their kinds&emdash;livestock and creeping things and beasts of the earth according to their kinds.&rdblquot; And it was so.</verse-unit>
+            <verse-unit unit-id="01001025"><marker class="begin-verse" mid="v01001025"/><verse-num>25</verse-num>And God made the beasts of the earth according to their kinds and the livestock according to their kinds, and everything that creeps on the ground according to its kind. And God saw that it was good.<end-paragraph/>
+            </verse-unit>
+            <verse-unit unit-id="01001026"><marker class="begin-verse" mid="v01001026"/>
+                <begin-paragraph/><verse-num>26</verse-num>Then God said, &ldblquot;Let us make man<footnote id="f8">The Hebrew word for <i>man</i> (<i language="Hebrew">adam</i>) is the generic term for mankind and becomes the proper name <i>Adam</i></footnote> in our image, after our likeness. And let them have dominion over the fish of the sea and over the birds of the heavens and over the livestock and over all the earth and over every creeping thing that creeps on the earth.&rdblquot;<end-paragraph/>
+            </verse-unit>
+            <verse-unit unit-id="01001027"><marker class="begin-verse" mid="v01001027"/>
+                <begin-block-indent/>
+                <begin-paragraph class="line-group"/>
+                <begin-line/><verse-num>27</verse-num>So God created man in his own image,<end-line class="br"/>
+                <begin-line class="indent"/>in the image of God he created him;<end-line class="br"/>
+                <begin-line class="indent"/>male and female he created them.<end-line/>
+                <end-paragraph/>
+                <end-block-indent/>
+            </verse-unit>
+            <verse-unit unit-id="01001028"><marker class="begin-verse" mid="v01001028"/>
+                <begin-paragraph/><verse-num>28</verse-num>And God blessed them. And God said to them, &ldblquot;Be fruitful and multiply and fill the earth and subdue it and have dominion over the fish of the sea and over the birds of the heavens and over every living thing that moves on the earth.&rdblquot;</verse-unit>
+            <verse-unit unit-id="01001029"><marker class="begin-verse" mid="v01001029"/><verse-num>29</verse-num>And God said, &ldblquot;Behold, I have given you every plant yielding seed that is on the face of all the earth, and every tree with seed in its fruit. You shall have them for food.</verse-unit>
+            <verse-unit unit-id="01001030"><marker class="begin-verse" mid="v01001030"/><verse-num>30</verse-num>And to every beast of the earth and to every bird of the heavens and to everything that creeps on the earth, everything that has the breath of life, I have given every green plant for food.&rdblquot; And it was so.</verse-unit>
+            <verse-unit unit-id="01001031"><marker class="begin-verse" mid="v01001031"/><verse-num>31</verse-num>And God saw everything that he had made, and behold, it was very good. And there was evening and there was morning, the sixth day.<end-paragraph/>
+                <end-chapter/>
+            </verse-unit>
+        </content>
+    </passage>
+    <copyright>The Holy Bible, English Standard Version copyright (c)2001 by Crossway Bibles, a division of Good News Publishers. Used by permission. All rights reserved. http://www.esv.org</copyright>
+</crossway-bible>
