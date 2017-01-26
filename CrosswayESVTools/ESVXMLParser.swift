@@ -114,7 +114,7 @@ public class ESVXMLParser: NSObject, XMLParserDelegate {
                     break
             }
             
-            passage.text.append(.BeginChapter(chapterNumber))
+            passage.textElements.append(.BeginChapter(chapterNumber))
             
         case .FootNote:
             guard let footNoteID = attributeDict["id"]
@@ -123,31 +123,31 @@ public class ESVXMLParser: NSObject, XMLParserDelegate {
                     break
             }
             
-            passage.text.append(.FootNoteMarker(footNoteID))
+            passage.textElements.append(.FootNoteMarker(footNoteID))
             currentFootnoteID = footNoteID
             
         case .BeginBlockIndent:
-            passage.text.append(.BeginBlockIndent)
+            passage.textElements.append(.BeginBlockIndent)
             
         case .BeginParagraph:
-            passage.text.append(.BeginParagraph)
+            passage.textElements.append(.BeginParagraph)
             
         case .BeginLine:
             if let classs = attributeDict["class"] {
                 let isIndented = classs == "indent"
-                passage.text.append(.BeginLine(indented: isIndented))
+                passage.textElements.append(.BeginLine(indented: isIndented))
             } else {
-                passage.text.append(.BeginLine(indented: false))
+                passage.textElements.append(.BeginLine(indented: false))
             }
             
         case .EndBlockIndent:
-            passage.text.append(.EndBlockIndent)
+            passage.textElements.append(.EndBlockIndent)
             
         case .EndParagraph:
-            passage.text.append(.EndParagraph)
+            passage.textElements.append(.EndParagraph)
             
         case .EndLine:
-            passage.text.append(.EndLine)
+            passage.textElements.append(.EndLine)
             
         default:
             break
@@ -180,17 +180,17 @@ public class ESVXMLParser: NSObject, XMLParserDelegate {
             case .Reference:
                 passage.reference = string
             case .Heading:
-                passage.text.append(ESVPassageTextElement.Heading(string))
+                passage.textElements.append(ESVPassageTextElement.Heading(string))
             case .VerseNumber:
                 guard let verseNumber = Int(string)
                 else {
                     parser.abortParsing()
                     break
                 }
-                passage.text.append(ESVPassageTextElement.VerseNumber(verseNumber))
+                passage.textElements.append(ESVPassageTextElement.VerseNumber(verseNumber))
                 
             case .VerseUnit:
-                passage.text.append(ESVPassageTextElement.VerseUnit(string))
+                passage.textElements.append(ESVPassageTextElement.VerseUnit(string))
                 
             case .CopyRight:
                 passage.copyright = string
@@ -198,7 +198,7 @@ public class ESVXMLParser: NSObject, XMLParserDelegate {
             case .FootNote:
                 passage.addFootNote(forID: currentFootnoteID, withBody: string)
             case .WordsOfChrist:
-                passage.text.append(ESVPassageTextElement.WordsOfChrist(string))
+                passage.textElements.append(ESVPassageTextElement.WordsOfChrist(string))
                 
             default:
                 break

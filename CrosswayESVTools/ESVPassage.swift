@@ -29,7 +29,7 @@ enum ESVPassageTextElement {
 public struct ESVPassage {
     var reference:String?
     var copyright:String?
-    var text:[ESVPassageTextElement] = []
+    var textElements:[ESVPassageTextElement] = []
     var footnotes:[String:[String]] = [String:[String]]()
     
     mutating func addFootNote(forID id: String,withBody body:String) {

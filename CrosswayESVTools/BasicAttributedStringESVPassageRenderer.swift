@@ -49,7 +49,7 @@ public class BasicAttributedStringESVPassageRenderer: ESVPassageAttributedString
         let headingAttributes:[String:Any] = [NSFontAttributeName:headerFont, NSParagraphStyleAttributeName: headingParaStyle]
         
         
-        let attributedStrings:[NSAttributedString?] = passage.text.map { passageTextElement in
+        let attributedStrings:[NSAttributedString?] = passage.textElements.map { passageTextElement in
             switch passageTextElement {
             case let .Heading(headingText):
                 if showHeadings {
