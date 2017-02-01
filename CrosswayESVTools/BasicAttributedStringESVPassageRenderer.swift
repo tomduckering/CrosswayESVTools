@@ -46,6 +46,7 @@ public class BasicAttributedStringESVPassageRenderer: ESVPassageAttributedString
         
         
         let bodyAttributes:[String:Any] = [NSFontAttributeName:bodyFont, NSParagraphStyleAttributeName: bodyParaStyle]
+        let wordsOfChristAttributes = bodyAttributes
         let headingAttributes:[String:Any] = [NSFontAttributeName:headerFont, NSParagraphStyleAttributeName: headingParaStyle]
         
         
@@ -74,11 +75,15 @@ public class BasicAttributedStringESVPassageRenderer: ESVPassageAttributedString
                 }
             case let .VerseUnit(verseText):
                 return NSAttributedString(string: verseText, attributes: bodyAttributes )
+            case let ESVPassageTextElement.WordsOfChrist(wordsOfChrist):
+                return NSAttributedString(string: wordsOfChrist, attributes: wordsOfChristAttributes)
             case .EndParagraph:
                 return NSAttributedString(string: "\n")
             case .EndLine:
                 return NSAttributedString(string: "\n")
-            default:
+            // Not using a default so as to cause compiler errors to ensure any
+            // later added elements will be flagged as needing to be catered for.
+            case .BeginBlockIndent, .EndBlockIndent, .BeginLine, .BeginParagraph,.BeginChapter,.EndChapter,.Italic,.FootNote,.FootNoteMarker:
                 return nil
             }
         }
